@@ -90,7 +90,7 @@ This example demonstrates the use of leaving things out, and what would happen i
 
 Maybe you can already see what would is going to happen here, but let's analyze it all, line by line.
 
-```json
+```jsonc
 {
 	"name": "The Bright Dance",
 	"colors": [
@@ -102,7 +102,7 @@ First, we begin by giving it a name and by opening our `colors` list. This is al
 
 Let's analyze it all some more:
 
-```json
+```jsonc
 {
 	// ...
 	"colors": [
@@ -118,7 +118,7 @@ So, we've added our first color! But, unlike all the previous examples, the `col
 What is unusual, is that it does not set a value for `time_until_next`. That's because we don't need to change it per se, as it defaults to five seconds.
 
 Let's go to our second color!
-```json
+```jsonc
 {
 	// ...
 	"colors": [
@@ -133,7 +133,7 @@ Let's go to our second color!
 
 As you can see, it does not specify a color value. Which is totally fine, as it tells LoveHue, "hey, continue with the last value you know". This could either be user set, or in this case, set by the animation just before that. Let's continue to our third value!
 
-```json
+```jsonc
 {
 	// ..
 	"colors": [
@@ -151,7 +151,7 @@ This time we are once again trying to set a color, but what's that? A typo? Oh n
 
 Let's proceed to the last color value.
 
-```json
+```jsonc
 {
 	// ...
 	"colors": [
