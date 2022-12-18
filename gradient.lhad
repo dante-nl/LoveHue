@@ -1,0 +1,77 @@
+{
+  "name": "Gradient",
+  "colors": [
+    {
+      "color": "#7400b8",
+      "time_until_next": 1
+    },
+    {
+      "color": "#6930c3",
+      "time_until_next": 1
+    },
+    {
+      "color": "#5e60ce",
+      "time_until_next": 1
+    },
+    {
+      "color": "#5390d9",
+      "time_until_next": 1
+    },
+    {
+      "color": "#4ea8de",
+      "time_until_next": 1
+    },
+    {
+      "color": "#48bfe3",
+      "time_until_next": 1
+    },
+    {
+      "color": "#56cfe1",
+      "time_until_next": 1
+    },
+    {
+      "color": "#64dfdf",
+      "time_until_next": 1
+    },
+    {
+      "color": "#72efdd",
+      "time_until_next": 1
+    },
+    {
+      "color": "#80ffdb",
+      "time_until_next": 1
+    },
+    {
+      "color": "#72efdd",
+      "time_until_next": 1
+    },
+    {
+      "color": "#64dfdf",
+      "time_until_next": 1
+    },
+    {
+      "color": "#56cfe1",
+      "time_until_next": 1
+    },
+    {
+      "color": "#48bfe3",
+      "time_until_next": 1
+    },
+    {
+      "color": "#4ea8de",
+      "time_until_next": 1
+    },
+    {
+      "color": "#5390d9",
+      "time_until_next": 1
+    },
+    {
+      "color": "#5e60ce",
+      "time_until_next": 1
+    },
+	{
+      "color": "#6930c3",
+      "time_until_next": 1
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Fireplace Animation",
+  "colors": [
+    {
+      "color": "#d13f00",
+      "brightness": 30,
+      "time_until_next": 3
+    },
+    {
+      "color": "#de7e23",
+      "brightness": 30,
+      "time_until_next": 1
+    },
+    {
+      "color": "#f5f249",
+      "brightness": 100,
+      "time_until_next": 0.5
+    },
+    {
+      "color": "#ed8a09",
+      "brightness": 30,
+      "time_until_next": 2
+    }
+  ]
+}

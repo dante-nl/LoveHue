@@ -1,0 +1,33 @@
+{
+  "name": "Snow",
+  "colors": [
+    {
+      "color": "#abc4ff",
+      "time_until_next": 2
+    },
+    {
+      "color": "#b6ccfe",
+      "time_until_next": 2
+    },
+    {
+      "color": "#07beb8",
+      "time_until_next": 2
+    },
+    {
+      "color": "#e2eafc",
+      "time_until_next": 2
+    },
+    {
+      "color": "#07beb8",
+      "time_until_next": 2
+    },
+    {
+      "color": "#edf2fb",
+      "time_until_next": 2
+    },
+    {
+      "color": "#d7e3fc",
+      "time_until_next": 2
+    }
+  ]
+}
