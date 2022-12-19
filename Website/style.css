@@ -1,0 +1,224 @@
+/* 
+🄻🄾🅅🄴🄷🅄🄴
+
+© dante_nl
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+/* 
+Fonts from Google Fonts. Fonts used:
+• Raleway
+• Open Sans 
+*/
+
+:root {
+	--main-color-a: #63ADF2;
+	--main-color-b: #304D6D;
+	--main-color-a-transparent: #63adf249;
+	--main-color-b-transparent: #304D6D49;
+
+	--text-color: #EBFFFE;
+	--text-color-alt: #0c0d0d;
+	--url-color: #00B295;
+
+
+	--font-family-title: 'Raleway', sans-serif;
+	--font-family-text: 'Open Sans', sans-serif;
+}
+/* Text styling */
+body {
+	color: var(--text-color);
+	font-family: var(--font-family-text);
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.title {
+	color: var(--main-color-b);
+	/* font-size: 500%; */
+	font-size: 5vw;
+	font-weight: 1000;
+	font-family: var(--font-family-title);
+}
+
+.mobile .title {
+	font-size: 300%;
+}
+
+.title.inverted {
+	color: var(--main-color-a)
+}
+
+a {
+	color: var(--url-color);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	filter: brightness(85%);
+}
+
+/* Desktop versions of grid + default values */
+.fun-grid {
+	display: grid;
+	gap: 20px;
+	grid-template-columns: 1fr 1fr;
+	margin: 0 auto;
+	width: 900px;
+}
+
+.fun-grid .item {
+	border-radius: 10px;
+	height: 350px;
+	width: 100%;
+}
+
+.fun-grid .left {
+	background-color: var(--main-color-a);
+}
+
+.fun-grid .right {
+	background-color: var(--main-color-b);
+}
+
+.fun-grid .spacing {
+	margin-left: 5px;
+}
+
+/* Mobile versions of grid */
+.mobile .fun-grid {
+	gap: 5px;
+	grid-template-columns: .5fr;
+	width: 80vw;
+}
+
+/* Other things */
+.mobile-invisible {
+	display: none;
+}
+
+.desktop-invisible {
+	display: none;
+}
+
+/** Various animations  */
+
+/* Gradient animatiion */
+.animation {
+	background: linear-gradient(123deg, #42047e, #07f49e);
+		background-size: 400% 400%;
+	
+		-webkit-animation: gradient 15s ease infinite;
+		-moz-animation: gradient 15s ease infinite;
+		-o-animation: gradient 15s ease infinite;
+		animation: gradient 15s ease infinite;
+	}
+	
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%
+	}
+
+	50% {
+		background-position: 100% 50%
+	}
+
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes gradient {
+	0% {
+		background-position: 0% 50%
+	}
+
+	50% {
+		background-position: 100% 50%
+	}
+
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-o-keyframes gradient {
+	0% {
+		background-position: 0% 50%
+	}
+
+	50% {
+		background-position: 100% 50%
+	}
+
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%
+	}
+
+	50% {
+		background-position: 100% 50%
+	}
+
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+/* Demonstrate brightness */
+.animation-brightness {
+	animation-name: brightness-change;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes brightness-change {
+	0% {
+		filter: brightness(1);
+		filter: contrast(1);
+		-webkit-filter: brightness(1);
+		-webkit-filter: contrast(1);
+	}
+
+	50% {
+		filter: brightness(0.4);
+		filter: contrast(0.4);
+		-webkit-filter: brightness(0.4);
+		-webkit-filter: contrast(0.4);
+	}
+
+	100% {
+		filter: brightness(1);
+		filter: contrast(1);
+		-webkit-filter: brightness(1);
+		-webkit-filter: contrast(1);
+	}
+}
+
+/* Demonstrate turning the light on/off */
+.animation-toggle {
+	animation-name: toggle-light;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	/* color: var(--main-color-b); */
+	/* background-color: var(--main-color-a); */
+}
+@keyframes toggle-light {
+	0% {
+		background-color: var(--main-color-b);
+	}
+
+	50% {
+		background-color: #000;
+	}
+
+	100% {
+		background-color: var(--main-color-b);
+	}
+}
