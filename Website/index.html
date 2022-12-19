@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/Website/style.css">
+	<script src="https://kit.fontawesome.com/ee422b4c3c.js" crossorigin="anonymous"></script>
+	<title>LoveHue</title>
+</head>
+<body>
+	<h1 class="title" style="text-align: center;">LoveHue <a href="https://github.com/dante-nl/LoveHue" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-github"></i></a></h1>
+	<div class="fun-grid">
+		<div class="left item">
+			<div class="spacing">
+				<h1 class="title">Animations for everyone.</h1>
+			</div>
+		</div>
+		<div class="right item animation">
+			<div class="spacing">
+				<h1>Animations can be used to enhance the experience with your lights.</h1>
+				<p>We use <code>.lhad</code> files to show them, they can easily be created and modified.</p>
+			</div>
+		</div>
+
+
+		<div class="left item">
+			<div class="spacing">
+				<h1 class="title">Not just colors.</h1>
+			</div>
+		</div>
+		<div class="right item animation-brightness">
+			<div class="spacing">
+				<h1>Animations can also change your brightness very easily.</h1>
+				<p>It's as simple as adding <code>"brightness": 50</code> to set your brightness to 50%.</p>
+			</div>
+		</div>
+
+		
+		<div class="left item">
+			<div class="spacing">
+				<h1 class="title">Basic features included.</h1>
+			</div>
+		</div>
+		<div class="right item animation-toggle">
+			<div class="spacing">
+				<h1>Turn the lights on and off and more</h1>
+				<p>LoveHue also supports "features" such as turning on/off lights and setting the brightness manually.</p>
+			</div>
+		</div>
+
+	</div>
+	<h1 class="title">What are you waiting for?</h1>
+	<h2 style="color: var(--text-color-alt);">Please <a href="https://github.com/dante-nl/LoveHue" target="_blank" rel="noopener noreferrer">visit the GitHub page</a> for installation instructions and more advanced features.</h2>
+	</div>
+
+	<script>
+		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+			// Mobile device
+			console.log("It appears that you're on a mobile device! This means that you get the website optimised for those small devices!")
+			document.body.classList.add("mobile")
+			// document.getElementById("desktop_order").style.display = "none"
+			mobile = true
+		} else {
+			// Not mobile
+			console.log("It appears that you're not on a mobile device! (laptop, computer, etc.) This means that you get the normal website!")
+			document.body.classList.remove("mobile")
+			// document.getElementById("changed_order").style.display = "none"
+			mobile = false
+		}
+	</script>
+</body>
+</html>
