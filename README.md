@@ -29,10 +29,10 @@ You can install it via the PyPlace store. When you start PyPlace, you will get a
 ```
 What you want to do is to enter `2` followed by `2` to download from the Pyplace Store and then number `10`. Basically `[2] Download a PyPlace app > [2] Download from PyPlace store > [10] LoveHue — Control Hue lights in Python by dante_nl`.
 
-If that does not work, you can also do `[2] Download a PyPlace app > [1] Link to Python file > https://raw.githubusercontent.com/dante-nl/PyPlace/main/Store%20Files/lovehue.py` as this would bypass the PyPlace store entirely.
+If that does not work, you can also do `[2] Download a PyPlace app > [1] Link to Python file > https://raw.githubusercontent.com/dante-nl/PyPlace/main/Store%20Files/lovehue.py` as this would bypass the PyPlace store entirely, or if you are using version 1.0 or newer, you can use `python3 pyplace.py https://raw.githubusercontent.com/dante-nl/PyPlace/main/Store%20Files/lovehue.py` for example.
 
 ### Install manually
 
-If you don't have a folder for various Python apps, you have to create one in your file manager. For Windows this would probably be Explorer and for macOS this would probably be Finder.
+If you don't have a folder for various Python apps, you have to create one in your file manager. For Windows this would be Explorer and for macOS this would be Finder.
 
 Once you have that folder, you have to go in this repository to a file named `LoveHue.py` and click "Download". Then, put this file inside the folder you just created, and then you can run the file via Terminal/Command Prompt with `cd <your folder> && python3 LoveHue.py`.
