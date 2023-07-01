@@ -1,0 +1,17 @@
+{
+  "name": "Basic RGB",
+  "colors": [
+    {
+      "color": "ff0000",
+      "time_until_next": 2
+    },
+    {
+      "color": "00ff00",
+      "time_until_next": 2
+    },
+    {
+      "color": "0000ff",
+      "time_until_next": 2
+    }
+  ]
+}
