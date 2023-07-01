@@ -1,0 +1,35 @@
+{
+  "name": "ColorWave",
+  "colors": [
+    {
+      "color": "#FF0000",
+      "brightness": 100,
+      "time_until_next": 2
+    },
+    {
+      "color": "#FFFF00",
+      "brightness": 75,
+      "time_until_next": 2
+    },
+    {
+      "color": "#00FF00",
+      "brightness": 50,
+      "time_until_next": 2
+    },
+    {
+      "color": "#00FFFF",
+      "brightness": 50,
+      "time_until_next": 2
+    },
+    {
+      "color": "#0000FF",
+      "brightness": 75,
+      "time_until_next": 2
+    },
+    {
+      "color": "#FF00FF",
+      "brightness": 100,
+      "time_until_next": 2
+    }
+  ]
+}
